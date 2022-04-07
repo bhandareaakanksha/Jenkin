@@ -30,6 +30,6 @@ pipeline {
                 echo 'I am in Version Phase'
                 sh 'aws s3 ls'
             }
-        
+        }
     }
 }
